@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* ------colors--------- */
+  --color-bgPrimary: white;
+  --color-textPrimary: black;
+  --color-textSecondary: oklch(44.6% 0.03 256.802 );
+  --color-primary: #D4AF37;
+  --color-attention: oklch(76.8% 0.233 130.85);
+  --color-primaryChange: #B8860B;
+  --color-primaryHoverFocus: oklch(92.9% 0.013 255.508 /0.4 );
+  /* ------------------------ */
+}
+
+* {
+  transition-property: background-color ;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  border-radius: 5%;
+}
