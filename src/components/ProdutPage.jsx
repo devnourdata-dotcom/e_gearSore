@@ -7,8 +7,6 @@ export default function ProductPage() {
   const products = useSelector((state) => state.products.data);
   const id = sessionStorage.getItem("productId");
   const product = products[id - 1];
-  // console.log("----------------------------------------------------------------")
-  // console.log(id)
   return (
     <div className="flex justify-evenly gap-50">
       <div className="flex">
